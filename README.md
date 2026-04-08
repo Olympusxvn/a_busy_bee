@@ -7,6 +7,7 @@
 | **GSD** | Planning, checklists, documentation | ~200–400 |
 | **Everything** | Coding, review, security (via subagent) | ~800–2,000 |
 | **Superpowers** | Hard debugging, TDD | ~1,200–1,500 |
+| **Mem** | Remember lessons, decisions across sessions | ~0 (file-based) |
 
 ## How to use
 1. Clone this repo
@@ -60,5 +61,3 @@ Sample files in templates/ help you create plans and specs quickly.
 If you don't have the repo yet, you can fork from: https://github.com/olympusxvn/a_busy_bee (link to be updated once you create it).
 
 Happy coding with A Busy Bee – thrifty, effective, and simple! 🐝✨
-
-   

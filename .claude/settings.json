@@ -1,0 +1,10 @@
+{
+  "token_warning_threshold": 0.8,
+  "context_window_limit": 200000,
+  "auto_summarize": true,
+  "tools": {
+    "gsd": { "enabled": true, "cost_per_call": 300 },
+    "everything": { "enabled": true, "cost_per_call": 1500, "use_subagent": true },
+    "superpowers": { "enabled": true, "cost_per_call": 1300 }
+  }
+}
