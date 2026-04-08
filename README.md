@@ -1,20 +1,20 @@
 # 🐝 A Busy Bee
 
-> *Chỉ 3 công cụ. Không phức tạp. Tiết kiệm token.*
+> *Only 3 tools. No complexity. Save tokens.*
 
-| Công cụ | Dùng để | Token |
-|---------|---------|-------|
-| **GSD** | Lập kế hoạch, checklist, tài liệu | ~200-400 |
-| **Everything** | Code, review, bảo mật (qua subagent) | ~800-2000 |
-| **Superpowers** | Debug khó, TDD | ~1200-1500 |
+| Tool | Use for | Token |
+|------|---------|-------|
+| **GSD** | Planning, checklists, documentation | ~200–400 |
+| **Everything** | Coding, review, security (via subagent) | ~800–2,000 |
+| **Superpowers** | Hard debugging, TDD | ~1,200–1,500 |
 
-## Cách dùng
-1. Clone repo này
-2. Mở Claude Code
-3. Nói: *"Ong Con ơi, hãy lập kế hoạch cho module X"*
+## How to use
+1. Clone this repo
+2. Open Claude Code
+3. Say: *"Hey Busy Bee, plan a module for me"*
 
-## Quy trình mẫu
-- GSD: lập kế hoạch → lưu file
-- Everything (subagent): code theo spec
-- Everything (review): kiểm tra code
-- Superpowers (nếu lỗi): debug
+## Sample workflow
+- GSD: plan → save to file
+- Everything (subagent): code according to spec
+- Everything (review): review code
+- Superpowers (if error): debug
