@@ -57,7 +57,7 @@ Even without installing the separate tools, you can use this repo as a configura
 Sample files in templates/ help you create plans and specs quickly.
 
 🔗 Example repo
-If you don't have the repo yet, you can fork from: https://github.com/example/a_busy_bee (link to be updated once you create it).
+If you don't have the repo yet, you can fork from: https://github.com/olympusxvn/a_busy_bee (link to be updated once you create it).
 
 Happy coding with A Busy Bee – thrifty, effective, and simple! 🐝✨
 
