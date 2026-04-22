@@ -35,7 +35,7 @@ cd a_busy_bee
 3. Install the 3 core tools (recommended)
 To fully benefit from the strategy, install these tools:
   1. GSD: npx get-shit-done-cc@latest (run in terminal, choose Claude Code)
-  2. Everything-Claude-Code: Visit github.com/affaan-m/everything-claude-code and follow instructions
+  2. Everything-Claude-Code: Visit https://github.com/affaan-m/everything-claude-code and follow instructions
   3. Superpowers: Inside Claude Code, type: /plugin install superpowers@claude-plugins-official
 
 4. Usage
