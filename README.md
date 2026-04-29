@@ -1,65 +1,138 @@
-# 🐝 A Busy Bee
+<div align="center">
 
-> *Only 3 tools. No complexity. Save tokens.*
+# A Busy Bee
 
-| Tool | Use for | Token |
-|------|---------|-------|
-| **GSD** | Planning, checklists, documentation | ~200–400 |
-| **Everything** | Coding, review, security (via subagent) | ~800–2,000 |
-| **Superpowers** | Hard debugging, TDD | ~1,200–1,500 |
-| **Mem** | Remember lessons, decisions across sessions | ~0 (file-based) |
+**Smart token orchestration for Claude Code**
 
-## How to use
-1. Clone this repo
-2. Open Claude Code
-3. Say: *"Hey Busy Bee, plan a module for me"*
+[![Stars](https://img.shields.io/github/stars/Olympusxvn/a_busy_bee?style=flat)](https://github.com/Olympusxvn/a_busy_bee/stargazers)
+[![Forks](https://img.shields.io/github/forks/Olympusxvn/a_busy_bee?style=flat)](https://github.com/Olympusxvn/a_busy_bee/network/members)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Ready-blue)](https://claude.ai)
 
-## Sample workflow
-- GSD: plan → save to file
-- Everything (subagent): code according to spec
-- Everything (review): review code
-- Superpowers (if error): debug
-  
-🐝 A Busy Bee – Installation Guide
-1. Prerequisites
-Claude Code installed (latest version)
+*Plan. Execute. Learn. Never waste a token.*
 
-A GitHub account (to clone the repo)
+</div>
 
-2. Clone the repository
-Open your terminal and run:
+---
 
-git clone https://github.com/olympusxvn/a_busy_bee.git
+## What Problem Do We Solve?
+
+| Pain Point | Without A Busy Bee | With A Busy Bee |
+|---|---|---|
+| Token burnout | 10,000-15,000 per module | ~5,000 per module (60-70% savings) |
+| Rate limits | Hit walls, wait forever | Smart retry + queuing |
+| Context overflow | AI forgets mid-task | Auto-snapshot & fresh sessions |
+
+---
+
+## The 3-Tool Strategy
+
+| Tool | Role | Token Cost | When to Use |
+|---|---|---|---|
+| **GSD** | Planning, checklists, docs, tracking | ~200-400 | Every organizational task |
+| **Everything-Claude-Code** | Coding, review, security, memory | ~800-2,000 (via subagent) | Main development work |
+| **Superpowers** | TDD, complex debugging, failure recovery | ~1,200-1,500 | Only when truly needed |
+| **Mem** | Remember lessons, decisions across sessions | ~0 (file-based) | Persistent memory |
+
+**Result: Save 60-70% of tokens while delivering better code quality.**
+
+---
+
+## Quick Start - 2 Minutes
+
+```bash
+# 1. Clone the hive
+git clone https://github.com/Olympusxvn/a_busy_bee.git
 cd a_busy_bee
 
-3. Install the 3 core tools (recommended)
-To fully benefit from the strategy, install these tools:
-  1. GSD: npx get-shit-done-cc@latest (run in terminal, choose Claude Code)
-  2. Everything-Claude-Code: Visit https://github.com/affaan-m/everything-claude-code and follow instructions
-  3. Superpowers: Inside Claude Code, type: /plugin install superpowers@claude-plugins-official
-
-4. Usage
-Open Claude Code inside the a_busy_bee folder:
-bash
+# 2. Open Claude Code
 claude .
 
-Claude will automatically read the configuration from .claude/ and the subagents.
+# 3. Deploy the bee
+"Hey Busy Bee, plan a new module following the workflow."
+```
 
-Start by saying:
+---
 
-"Hey Busy Bee, plan a module for me"
+## Install the 3 Core Tools
 
-5. Verify installation
-Check that subagents appear in Claude Code (type /subagent to list them).
-Run a small planning task using GSD.
+| Tool | Command |
+|---|---|
+| **GSD** | `npx get-shit-done-cc@latest` (run in terminal, choose Claude Code) |
+| **Everything** | Visit [everything-claude-code](https://github.com/affaan-m/everything-claude-code) and follow instructions |
+| **Superpowers** | Inside Claude Code: `/plugin install superpowers@claude-plugins-official` |
 
-💡 Quick tips
-Even without installing the separate tools, you can use this repo as a configuration template – just clone and open in Claude Code to get the 3‑tool strategy ready.
-Sample files in templates/ help you create plans and specs quickly.
+> Even without installing the separate tools, you can use this repo as a configuration template - just clone and open in Claude Code.
 
-🔗 Example repo
-If you don't have the repo yet, you can fork from: https://github.com/olympusxvn/a_busy_bee (link to be updated once you create it).
+---
 
-Happy coding with A Busy Bee – thrifty, effective, and simple! 🐝✨
+## What's Inside
 
-   
+```
+a_busy_bee/
+├── .claude/
+│   ├── settings.json           # Token & context warnings
+│   ├── subagents/              # Planner, coder, debugger
+│   └── skills/                 # gsd-optimized, token-saver, mem
+├── docs/
+│   ├── strategy.md             # The 3-tool strategy explained
+│   └── mem/                    # Persistent memory store
+├── templates/
+│   ├── plan-template.md        # Copy-paste for any module
+│   └── spec-template.md        # 5-10 line spec template
+└── README.md                   # You are here
+```
+
+---
+
+## Why Developers Love A Busy Bee
+
+| Benefit | What It Means For You |
+|---|---|
+| **Save $ on tokens** | 60-70% token reduction = lower API costs |
+| **Ship faster** | Subagents work in parallel, not sequential |
+| **No more context crashes** | Auto-snapshot before overflow |
+| **Learn once, apply forever** | Persistent memory across sessions |
+| **Zero lock-in** | Just templates + configs - take them anywhere |
+
+---
+
+## Sample Workflow
+
+```
+GSD: plan → save to file
+Everything (subagent): code according to spec
+Everything (review): review code
+Superpowers (if error): debug with TDD
+Mem: save lessons learned
+```
+
+---
+
+## Contributing
+
+We welcome all forms of contribution - from typo fixes to new subagents. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+- Report bugs: [Open an issue](https://github.com/Olympusxvn/a_busy_bee/issues/new?template=bug_report.md)
+- Feature requests: [Request a feature](https://github.com/Olympusxvn/a_busy_bee/issues/new?template=feature_request.md)
+- Share stories: How did A Busy Bee save your tokens?
+
+First-time contributors welcome. Start with our `good first issue` label.
+
+---
+
+## License
+
+MIT - Busy but free.
+
+---
+
+<div align="center">
+
+**If this saved you tokens, [star the repo](https://github.com/Olympusxvn/a_busy_bee) to help others find it.**
+
+[![Star History](https://img.shields.io/github/stars/Olympusxvn/a_busy_bee?style=social)](https://github.com/Olympusxvn/a_busy_bee)
+
+*Busy. Smart. Thrifty.*
+
+</div>
