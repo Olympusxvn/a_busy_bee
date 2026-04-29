@@ -6,5 +6,19 @@
     "gsd": { "enabled": true, "cost_per_call": 300 },
     "everything": { "enabled": true, "cost_per_call": 1500, "use_subagent": true },
     "superpowers": { "enabled": true, "cost_per_call": 1300 }
+  },
+  "agents": {
+    "planner": {
+      "path": ".claude/agents/planner.md",
+      "enabled": true
+    },
+    "code-reviewer": {
+      "path": ".claude/agents/code-reviewer.md",
+      "enabled": true
+    }
+  },
+  "rules": {
+    "common": ".claude/common/",
+    "typescript": ".claude/typescript/"
   }
 }
