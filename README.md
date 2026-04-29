@@ -36,7 +36,7 @@ A Busy Bee orchestrates three strategic tool groups, always picking the cheapest
 | Tool | Role | Token Cost | When to Use |
 |---|---|---|---|
 | **GSD** | Planning, checklists, docs, tracking | ~200-400 | Every organizational task |
-| **Everything-Claude-Code** | Coding, review, security, rules | ~800-2,000 (via subagent) | Main development work |
+| **Everything-Claude-Code** | Coding, review (verdict and fix plan), security, rules | ~800-2,000 (via subagent) | Main development work |
 | **Superpowers** | TDD, complex debugging, failure recovery | ~1,200-1,500 | Only when truly needed |
 | **Mem** | Persistent memory across sessions | ~0 (file-based) | Lessons learned, decisions |
 
