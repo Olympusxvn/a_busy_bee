@@ -55,7 +55,7 @@ cd a_busy_bee
 claude .
 
 # 3. Deploy the bee
-"Hey Busy Bee, plan a new module following the workflow."
+"Hey Busy Bee, plan a new module following the workflow." or cd "your_project"
 ```
 
 ---
